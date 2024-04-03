@@ -16,6 +16,64 @@ var nome = 'Jéssica'
         console.log(nome)
         console.loge(idade)
 
+        var listaDeCompras = 'uva, morango, maçã'
+        console.log(listaDeCompras)
+
+        var minhasInfos = {
+            nome: 'Jéssica de Brito',
+            idade: 29,
+            profissao: 'dev',
+        }
+        console.log(minhasInfos)
+        console.log(minhasInfos.idade)
+
+        /* ---------- BOOLEAN ------------------  */
+
+        var idade = 15
+        var idadedMinima = 18 
+
+        var valor = idade >= idadedMinima
+       
+
+        if (valor) {
+            console.log ('Você tem idade para o evento')
+        } else {
+            console.log ('Você não tem idade para o evento')
+        }
+
+        /* ---------- ARRAY ------------------  */
+
+        var arraySemana = ['domingo','segunda', 'terça', 'quarta', 'quinta','sexta','sábado']
+        
+        arraySemana.forEach(
+            (itemDoArray, index) => {
+                console.log ('-------------')
+                console.log (itemDoArray, index)
+            }
+        )
+    
+        var globo = [
+            {
+            nome: 'g1',
+            cor: 'vermelho',
+            link: 'www.globo.com/g1',
+            },
+
+            {
+            nome: 'ge',
+            cor: 'verde',
+            link: 'www.globo.com/ge',
+            }
+        ]
+        globo.forEach (
+            (itemDoArray, index) => {
+                concole.log ('-------------')
+                console.log(itemDoArray.nome)
+                console.log(itemDoArray.cor)
+                console.log(itemDoArray.link)
+                console.log ('-------------')
+            }
+        )
         
     </script>
 </body>
